@@ -4,7 +4,7 @@
     <Hero/>
 
     <!-- Contact Section - Two Columns -->
-    <section class="p-16">
+    <section class="px-3 py-12 md:py-16">
       <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 max-w-7xl mx-auto">
           
@@ -39,10 +39,10 @@
               </p>
 
               <!-- Contact Information Blocks -->
-              <div class="space-y-6">
+              <div class="space-y-6 ">
                 
                 <!-- Customer Support -->
-                <div class="flex items-start gap-4 p-4 rounded-lg hover:bg-gray-50 transition-colors">
+                <div class="flex items-start gap-4 rounded-lg hover:bg-gray-50 transition-colors">
                   <div class="flex-shrink-0">
                     <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
                       <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -59,7 +59,7 @@
                 </div>
 
                 <!-- Email Assistance -->
-                <div class="flex items-start gap-4 p-4 rounded-lg hover:bg-gray-50 transition-colors">
+                <div class="flex items-start gap-4 rounded-lg hover:bg-gray-50 transition-colors">
                   <div class="flex-shrink-0">
                     <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
                       <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -70,13 +70,13 @@
                   <div class="flex-1">
                     <h3 class="font-semibold text-gray-800 mb-1">Email Assistance</h3>
                     <a class="text-purple-600 font-medium text-lg hover:underline">
-                      support@kemoysupply.com
+                      support@ kemoysupply.com
                     </a>
                   </div>
                 </div>
 
                 <!-- Store Location -->
-                <div class="flex items-start gap-4 p-4 rounded-lg hover:bg-gray-50 transition-colors">
+                <div class="flex items-start gap-4 rounded-lg hover:bg-gray-50 transition-colors">
                   <div class="flex-shrink-0">
                     <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
                       <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -116,17 +116,12 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import Hero from './Hero.vue';
 import CTA from './CTA.vue';
-
-defineEmits<{
-  navigate: [page: string];
-}>();
 </script>
 
 <style scoped>
-/* Ensure iframe is fully responsive */
 iframe {
   min-height: 450px;
 }

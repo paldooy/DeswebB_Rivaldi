@@ -5,11 +5,12 @@
         <p class="text-xl text-white/90 mb-8">
           Jelajahi ribuan produk berkualitas dengan harga terbaik
         </p>
-        <button 
-          class="px-8 py-3 bg-white text-blue-600 rounded-md hover:bg-gray-100 transition-colors font-semibold text-lg"
+        <router-link 
+          to="/products"
+          class="inline-block px-8 py-3 bg-white text-blue-600 rounded-md hover:bg-gray-100 transition-colors font-semibold text-lg"
         >
           Lihat Produk Kami
-        </button>
+        </router-link>
       </div>
     </section>
 </template>
