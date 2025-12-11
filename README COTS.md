@@ -1,4 +1,6 @@
 # .
+KAK CEK PAKE BRANCH "didi"
+
 COTS
 List File Terkait:
 1. components/COTS/AboutMe.vue
