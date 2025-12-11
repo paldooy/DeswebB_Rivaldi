@@ -11,7 +11,7 @@
           <span class="inline-block px-3 py-1 bg-white/20 rounded-full text-xs sm:text-sm mb-3 sm:mb-4">
             Belanja Hemat Setiap Hari
           </span>
-          <h1 class="mb-4 sm:mb-6 text-2xl sm:text-3xl md:text-4xl lg:text-5xl">Temukan Produk Favorit Anda di KemoySupply</h1>
+          <h1 class="mb-4 sm:mb-6 text-2xl font-bold sm:text-3xl md:text-4xl lg:text-5xl">Temukan Produk Favorit Anda di KemoySupply</h1>
           <p class="mb-6 sm:mb-8 text-base sm:text-lg md:text-xl text-white/90">
             Ribuan produk berkualitas dengan harga terbaik. Gratis ongkir untuk pembelian pertama!
           </p>

@@ -7,6 +7,7 @@ import ProductList from '../components/Product/ProductList.vue';
 import ProductDetail from '../components/Product/ProductDetail.vue';
 import Profil from '@/components/Profil/Profil.vue';
 import Wishlist from '@/components/Wishlist/Wishlist.vue';
+import AboutMe from '@/components/COTS/AboutMe.vue';
 
 const routes = [
   {
@@ -14,6 +15,12 @@ const routes = [
     name: 'Home',
     component: Hero,
     meta: { title: 'Home - KemoySupply' }
+  },
+  {
+    path: '/aboutme',
+    name: 'About Me',
+    component: AboutMe,
+    meta: { title: 'AboutMe - KemoySupply' }
   },
   {
     path: '/contact',

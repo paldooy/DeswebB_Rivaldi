@@ -21,7 +21,7 @@
           Produk
         </router-link>
         {{ ' / ' }}
-        <router-link to="/products" class="cursor-pointer hover:text-blue-600">
+        <router-link :to="`/products?active tab=${product.category}`" class="cursor-pointer hover:text-blue-600">
           {{ product.category }}
         </router-link>
         {{ ' / ' }}
